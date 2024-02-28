@@ -9,15 +9,45 @@
 <body>
     <header>
         <section id="sec-header">
-            <div class="imagotipo">
-                <img src="img/logo.png" alt="">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
                 <p>La Golondrina</p>
             </div>
 
             <div class="ingresar">
-                <a href=""> <img src="img/usuario.png" alt=""> </a>
-                <a class="a-p-ingresar" href=""> <p class="p-ingresar">Ingresar</p> </a>
+                <a href=""> <img id="login-img" src="img/usuario.png" alt=""> </a>
+            
+                <a id="open-login" class="enter-user" href=""> <p>Ingresar</p> </a>
             </div>
+
+            <article id="user" class="user d-none">
+                <h3>La Golondrina</h3>
+                <div class="div-user">
+                    <p>Nombre de usuario</p>
+                    <img src="img/usuario.png" alt="">
+                </div>
+                <div class="line"><p>Facu_Guillen</p></div>
+                <div class="div-email">
+                    <p>Email</p>
+                    <img src="img/email.png" alt="">
+                </div>
+                <div class="line"><p>facu.guillen@hotmail.com</p></div>
+                <div class="div-password">
+                    <p>Contraseña</p>
+                    <img src="img/password.png" alt="">
+                </div>
+                <div class="line"><p>********</p></div>
+
+                <div class="sale">
+                    <p>¿Desea recibir alertas de proximas fechas?</p>
+                    <div class="checkbox"></div>
+                </div>
+
+                <div class="button">
+                    <a class="enter-button" href="">Ingresar</a>
+                    <a class="register-button" href="">Registrarme</a>
+                </div>
+            </article>
         </section>
     </header>
 
@@ -26,10 +56,10 @@
             <article id="img-inicio">
                 <img src="img/img-inicio.jpg" alt="">
                 
-                <div class="contenido-img">
+                <div class="content-img">
                     <h1>Disfruta las distintas culturas</h1>
-                    <p class="contenido-img-p">Te invitamos a conocerlas</p>
-                    <div class="boton-img">
+                    <p class="content-p">Te invitamos a conocerlas</p>
+                    <div class="content-button">
                         <a href=""> <p>Nuestras excursiones</p> </a>
                     </div>
                 </div>
@@ -98,9 +128,9 @@
 
     <footer>
         <aside id="footer">
-            <div class="div-footer-imagotipo">
-                <img class="img-imagotipo-footer" src="img/img-footer.png" alt="">
-                <p class="p-imagotipo-footer">La Golondrina</p>
+            <div class="div-footer">
+                <img class="logo-footer" src="img/img-footer.png" alt="">
+                <p>La Golondrina</p>
             </div>
             <div class="deco-footer">
 
@@ -122,6 +152,8 @@
 
         </aside>
     </footer>
+
+    <script src="js/main.js"></script>
     
 </body>
 </html>
