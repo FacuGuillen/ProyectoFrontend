@@ -37,20 +37,23 @@
                 </div>
 
                 <div class="name">
-                    <label class="label-form" for="nombre">Apellido</label required>
-                    <input class="input-form" type="text" name="nombre" id="nombre" placeholder="Apellido completo">
+                    <label class="label-form" for="apellido">Apellido</label required>
+                    <input class="input-form" type="text" name="apellido" id="apellido" placeholder="Apellido completo">
                     <div class="line-sign-up"></div>
                 </div>
 
                 <div class="name">
                     <div class="form-dni">
+                        <div class="selecion-dni">
                         <select class="select" required>
                             <option value="DNI">Tipo</option>
                             <option value="1">DNI</option>
                         </select>
-                        <div class="dni">
+                    
                         <label class="label-form-dni" for="numero">Número</label required>
-                        <input class="input-form-dni" type="tel" name="numero" id="numero" placeholder="Número DNI">
+                        </div>
+                            <div class="dni">
+                                <input class="input-form-dni" type="tel" name="numero" id="numero" placeholder="Número DNI">
                         <div class="line-select"></div>
                         </div>
                     </div>
@@ -65,6 +68,53 @@
 
             <div class="account-information">
                 <p>Sobre tu cuenta</p>
+                <div class="name">
+                    <label class="label-form" for="email">Email</label required>
+                    <input class="input-form" type="email" name="email" id="email" placeholder="Email">
+                    <div class="line-sign-up"></div>
+                </div>
+
+                <div class="name">
+                    <label class="label-form" for="confirmar">Confirmar email</label required>
+                    <input class="input-form" type="email" name="confirmar" id="confirmar" placeholder="Email">
+                    <div class="line-sign-up"></div>
+                </div>
+
+                <div class="name">
+                    <label class="label-form" for="password">Contraseña (mínimo 8 caracteres)</label required>
+                    <input class="input-form" type="password" name="password" id="password" placeholder="Contraseña">
+                    <div class="line-sign-up"></div>
+                </div>
+
+                <div class="name">
+                    <label class="label-form" for="confpassword">Contraseña</label required>
+                    <input class="input-form" type="password" name="confpassword" id="confpassword" placeholder="Repetir contraseña">
+                    <div class="line-sign-up"></div>
+                </div>
+            </div>
+
+            <div class="sign-up-tyc">
+                <p class="p-tyc"> Acepto las Politicas de Privacidad Términos</p>
+                <div class="container-tyc">
+                    <p class="p-tyc2"> y Condiciones</p>
+                    <div class="checkbox-tyc"></div>
+                </div>
+            </div>
+            <div class="create-account">
+                <a id="create-account" class="button-create-account" href="">Crear cuenta</a>
+            </div>
+
+            <div class="popup-sign-up">
+                <h3>¡Felicidades!</h3>
+                <p>USTED SE HA REGISTRADO EXITOSAMENTE</p>
+                <div class="logo-popup-sign-up">
+                    <img src="../img/logo.png" alt="">
+                    <p>La Golondrina</p>
+                </div>
+                    <p>RECIBIRAS UN MAIL DE CONFIRMACION</p>
+                    <div class="button-close-sign-up">
+                <a href="button-close-popup"> Cerrar </a>
+            </div>
             </div>
 
         </section>

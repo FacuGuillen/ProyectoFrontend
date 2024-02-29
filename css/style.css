@@ -59,8 +59,8 @@ body{
 
 .user{
     margin-top: 60px;
-    width: 200px;
-    height: 270px;
+    width: 195px;
+    height: 278px;
     background-color: white;
     border-radius: 20px;
     z-index: 1;
@@ -74,22 +74,97 @@ body{
     font-size: 18px;
 }
 
-.div-user{
+.container-popup{
     display: flex;
+    flex-direction: column;
     margin-bottom: 14px;
     margin-top: 26px;
 }
 
-.div-user p{
+.container-popup p{
     margin-left: 8.6px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
-.div-user img{
+.img-user{
     width: 12px;
     height: 12px;
-    margin-left: 49px;
+    margin-left: 105px;
+}
+
+.img-email{
+    width: 12px;
+    height: 12px;
+    margin-left: 123px;
+}
+
+.password-img{
+    width: 12px;
+    height: 12px;
+    margin-left: 91px;
+}
+
+.containers-popup{
+    display: flex;
+    align-items: center;
+}
+
+.container-email{
+    display: flex;
+    align-items: center;
+}
+
+.container-password{
+    display: flex;
+    align-items: center;
+}
+
+.input-popup{font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    border: none; 
+    outline: none;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.input-popup-password{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    border: none; 
+    outline: none;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.input-popup-email{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    border: none; 
+    outline: none;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.label-popup{
+    margin-left: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.label-popup-password{
+    margin-left: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.label-popup-email{
+    margin-left: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 .line{
@@ -97,6 +172,7 @@ body{
     width: 90%;
     height: 1px;
     background-color: black;
+    margin-top: -14px;
 }
 
 .line p{
@@ -169,8 +245,9 @@ body{
 }
 
 .checkbox{
-    width: 8px;
-    height: 8px;
+    width: 9px;
+    height: 9px;
+    margin-right: 5px;
     border: 1px solid #000;
 }
 
@@ -492,22 +569,26 @@ body{
 }
 
 .line-select {
-    margin: 0px 51.875px;
-    width: 58%;
+    margin: 0 auto;
+    width: 70%;
     height: 1px;
     background-color: black;
 }
 
 .select{
-    margin-left: 51px;
     background-color: #B8D4CB;
     border: none; /* Elimina el borde */
     font-family: 'Montserrat', sans-serif;
     margin-top: 19px;
+    margin-right: 15px;
 }
 
 .select option{
     background-color: white;
+}
+
+.selection-dni{
+    display: flex;
 }
 
 .form-dni {
@@ -515,6 +596,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .dni {
@@ -546,4 +628,91 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 65px;
+}
+
+.p-tyc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-tyc2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.checkbox-tyc{
+    width: 9px;
+    height: 9px;
+    /* margin-right: 5px; */
+    border: 1px solid #000;
+}
+
+.container-tyc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-create-account{
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 10px;
+    background-color: #F48D33;
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.create-account{
+    display: flex;
+    justify-content: center;
+}
+
+.popup-sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 264px;
+    height: 300px;
+    background-color: #EE7309;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.button-close-sign-up{
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 10px;
+    background-color: #30ACBF;
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.button-close-sign-up a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-popup-sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-popup-sign-up img{
+
 }
