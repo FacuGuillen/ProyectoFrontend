@@ -54,7 +54,7 @@ body{
     height: 15px;
     position: absolute;
     right: 125px;
-    top: 22px;
+    top: 17px;
 }
 
 .user{
@@ -152,7 +152,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     position: absolute;
     right: 50px;
-    top: 20px;
+    top: 17px;
     font-size: 15px;
     color: black;
 }
@@ -426,4 +426,124 @@ body{
 
 .d-none{
     display: none;
+}
+
+
+
+/* -------------------- REGISTER -------------------- */
+
+.line-sign-up{
+    margin: 0 auto;
+    width: 70%;
+    height: 1px;
+    background-color: black;
+}
+
+.sign-up{  
+    width: 95%;
+    height: 900px;
+    background-color: #B8D4CB;
+    margin: 25px auto;
+    border-radius: 40px;
+}
+
+.sign-up-content p{
+    font-size: 26px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.personal-information p{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name p{
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+
+.label-form{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 4px;
+}
+
+.input-form{
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    text-align: center;
+    border: none; /* elimina el borde por defecto */
+    outline: none; /* elimina el borde al hacer clic en el input */
+    background-color: #B8D4CB;
+}
+
+.line-select {
+    margin: 0px 51.875px;
+    width: 58%;
+    height: 1px;
+    background-color: black;
+}
+
+.select{
+    margin-left: 51px;
+    background-color: #B8D4CB;
+    border: none; /* Elimina el borde */
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 19px;
+}
+
+.select option{
+    background-color: white;
+}
+
+.form-dni {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dni {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label-form-dni{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 4px;
+}
+
+.input-form-dni{
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    text-align: center;
+    border: none; /* elimina el borde por defecto */
+    outline: none; /* elimina el borde al hacer clic en el input */
+    background-color: #B8D4CB;
+}
+
+.account-information p{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 65px;
 }
