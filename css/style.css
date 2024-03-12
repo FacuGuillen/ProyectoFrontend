@@ -29,7 +29,7 @@ body{
 
 .logo p{
     text-align: center;
-    margin-left: -30px;
+    margin-left: 4px;
     margin-top: 20px;
     font-family: 'Cinzel Decorative', serif;
     font-weight: bold;
@@ -38,9 +38,20 @@ body{
 
 .logo a img{
     opacity: 100%;
-    width: 100px;
-    height: auto;
-    margin-top: 8px;
+    margin-top: -12px;
+    width: 45px;
+    height: 45px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 20px;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 /* ---------- ingresar ---------- */ 
@@ -120,16 +131,7 @@ body{
     align-items: center;
 }
 
-.input-popup{font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    text-align: center;
-    border: none; 
-    outline: none;
-    font-size: 10px;
-    opacity: 0.5;
-}
-
-.input-popup-password{
+.input-popup{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     text-align: center;
@@ -137,16 +139,7 @@ body{
     outline: none;
     font-size: 10px;
     opacity: 0.5;
-}
-
-.input-popup-email{
-    font-family: 'Montserrat', sans-serif;
-    width: 100%;
-    text-align: center;
-    border: none; 
-    outline: none;
-    font-size: 10px;
-    opacity: 0.5;
+    margin-top: 4px;
 }
 
 .label-popup{
@@ -233,7 +226,7 @@ body{
     color: black;
 }
 
-.sale{
+/* .sale{
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
@@ -249,7 +242,7 @@ body{
     height: 9px;
     margin-right: 5px;
     border: 1px solid #000;
-}
+} */
 
 .button{
     display: flex;
@@ -344,7 +337,7 @@ body{
 
 #destacados{
     width: 100%;
-    height: 1200px;
+    height: 500px;
     background-color: #CEE8DE;
     margin-top: 220px;
 }
@@ -353,16 +346,16 @@ body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    margin-left: 20px;
     position: relative;
-    top: 10px;
+    top: 20px;
+    margin-bottom: 25px;
 }
 
 .card-destacados{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .card{
@@ -373,7 +366,7 @@ body{
     background-color: white;
     border-radius: 30px;
     margin-top: 25px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 
 .img-destacados{
@@ -499,10 +492,6 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-}
-
-.d-none{
-    display: none;
 }
 
 
@@ -647,11 +636,10 @@ body{
 .checkbox-tyc{
     width: 9px;
     height: 9px;
-    /* margin-right: 5px; */
     border: 1px solid #000;
 }
 
-.container-tyc{
+.container-tyc{ /* tyc = Terminos y condiciones */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -680,13 +668,19 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
-    position: relative;
-    width: 264px;
-    height: 300px;
+    position: fixed;
+    left: 50%; 
+    transform: translateX(-50%);
+    bottom: 40%;
+    width: 250px;
+    height: 280px;
     background-color: #EE7309;
     z-index: 1;
     border-radius: 25px;
+}
+
+.popup-sign-up h3{
+    margin-bottom: 30px;
 }
 
 .button-close-sign-up{
@@ -714,5 +708,35 @@ body{
 }
 
 .logo-popup-sign-up img{
+    margin: 15px 5px; 
+    width: 45px; 
+    height: 45px
+}
 
+.logo-popup-sign-up p{ 
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 5px; 
+}
+
+
+.d-none{
+    display: none;
+}
+
+.slider{
+    width: 225px !important;
+    margin: 0 auto;
+}
+
+.slick-prev:before,
+.slick-next:before{
+    color: black !important;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+.slick-prev:before{
+    margin-left: -10px;
 }
